@@ -7,11 +7,11 @@ public class Day_10_Beginner_If_Else_2_all_code {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
-		int once_again = 0;
+		int once_again = 0; 
 		do {
 
 			System.out.println("");
-			System.out.println("Which code would you like to execute?\n\n");
+			System.out.println("Which code qwould you like to execute?\n\n");
 			// Question
 			System.out.println(
 					"1. Write a program to input three numbers(A, B & C) from user and print the maximum element among A, B & C in each line.\n\n");
