@@ -14,8 +14,7 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 			System.out.println("");
 			System.out.println("Which code would you like to execute?\n\n");
 			System.out.println("1. Print the first five letters of the English alphabet i.e. A, B, C, D and E.");
-			System.out.println(
-					"2. Perform the following operations on 6 and 3 and print their respective outputs in different lines.");
+			System.out.println("2. Perform the following operations on 6 and 3 and print their respective outputs in different lines.");
 			System.out.println("3. Print the following pattern in output 1");
 			System.out.println("4. Print the following pattern in output 2");
 			System.out.println("5. Print \"Hello World !\" in the output.");
@@ -30,10 +29,29 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 			switch (code_number) {
 			case 1: {
 
-				/*
-				 * code number one
+				/* =====================
+				 * Problem Description:-
+				 * =====================
 				 * 
 				 * Print the first five letters of the English alphabet i.e. A, B, C, D and E.
+				 * 
+				 * ===============
+				 * OutPut Format:-
+				 * ===============
+				 * 
+				 * Print the characters in separate lines.
+				 * 
+				 * ================
+				 * Example Output:-
+				 * ================
+				 * 
+				 *  A
+				 *	B 
+				 *	C
+				 *	D
+				 *	E
+				 * 
+				 * 
 				 *
 				 */
 
@@ -48,11 +66,39 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 
 			case 2: {
 
-				/*
+				/* =====================
+				 * Problem Description:-
+				 * =====================
+				 * 
 				 * Perform the following operations on 6 and 3 and print their respective
 				 * outputs in different lines. 1. Addition 2. Subtraction 3. Multiplication 4.
 				 * Division
+				 * 
+				 * ===============
+				 * Output Format:-
+				 * ===============
+				 * 
+				 * Print the output of 6+3, 6-3, 6*3, 6/3 in separate lines.
+				 * 
+				 * ================
+				 * Example Output:-
+				 * ================
+				 * 
+				 * 	9
+				 *	3
+				 *	18
+				 *	2
+				 *	
+				 *	=====================
+				 *	Example Explanation:-
+				 *  =====================
+				 *  
+				 *	6 + 3 = 9
+				 *	6 - 3 = 3
+				 *	6 * 3 = 18
+				 *	6 / 3 = 2
 				 */
+				
 				System.out.println("when we add 6 and 3 we will get = " + (6 + 3));
 				System.out.println("when we sub 6 and 3 we will get = " + (6 - 3));
 				System.out.println("when we mult 6 and 3 we will get = " + (6 * 3));
@@ -61,11 +107,37 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 3: {
-				/*
+				/* =====================
+				 * Problem Description:-
+				 * =====================
+				 * 
 				 * Print the following pattern in output *****
-				 **** 
-				 *** 
-				 ** 
+				 * **** 
+				 * *** 
+				 * ** 
+				 * *
+				 *
+				 * ===============
+				 * Output Format:-
+				 * ===============
+				 * 
+				 * Print the following pattern in 5 lines with 5, 4, 3, 2, 1 stars in each line
+				 *
+				 * *****  
+				 * ****  
+				 * ***  
+				 * **  
+				 * *
+				 *
+				 * ================
+				 * Example Output:-
+				 * ================
+				 * 
+				 * *****  
+				 * ***  
+				 * **  
+				 * *  
+				 *
 				 *
 				 */
 
@@ -78,13 +150,35 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 4: {
-				/*
+				/* ====================
+				 * Problem Description
+				 * ====================
+				 * 
 				 * Print the following pattern in output
+				 * 
+				 * =============
+				 * Output Format
+				 * =============
+				 * 
+				 * Print the following pattern in 5 lines with 4 spaces and 1 star, 3 spaces and 2 stars, 2 spaces and 3 stars, 1 spaces and 4 stars, 0 spaces and 5 stars in respectively lines
+				 * 
+				 * 
+				 *		 *
+				 *	    **
+				 *     ***
+				 *    ****
+				 *   *****
+				 *   
+				 * ============== 
+				 * Example Output
+				 * ==============
 				 *
-				 **
-				 ***
-				 ****
-				 *****
+				 *      *
+			     *	   **
+			     *	  ***
+			     *	 ****
+			     *	*****
+				 *
 				 */
 				System.out.println("    *");
 				System.out.println("   **");
@@ -95,20 +189,51 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 5: {
-				/* Print "Hello World !" in the output. */
+				
+				/*
+				 * =====================
+				 * Problem Description:-
+				 * =====================
+				 * 
+				 * Print "Hello World !" in the output. 
+				 * 
+				 * ===============
+				 * Output Format:-
+				 * ===============
+				 * 
+				 * Print in a single line "Hello World !"
+				 * 
+				 * ================ 
+				 * Example Output:-
+				 * ================
+				 * Hello World !
+				 *	
+				 * Note - You don't have to print "" in the output
+				 * 
+				 */
 
 				System.out.println("Hello World !");
 			}
 				break;
 
 			case 6: {
-				/*
-				 * Print the following Pattern in Output :
-				 ******
-				 *
-				 *
-				 *
-				 ******
+				/* =====================
+				 * Problem Description:-
+				 * =====================
+				 * 
+				 * 
+				 * 
+				 * ===============
+				 * Output Format:-
+				 * ===============
+				 * 
+				 * 
+				 * 
+				 * ================ 
+				 * Example Output:-
+				 * ================
+				 * 
+				 * 
 				 */
 				System.out.println("******");
 				System.out.println("*");
@@ -120,11 +245,23 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 7: {
-				/*
-				 * Print the following Pattern in Output :
-				 ******
-				 * * * *
-				 ******
+				/* =====================
+				 * Problem Description:-
+				 * =====================
+				 * 
+				 * 
+				 * 
+				 * ===============
+				 * Output Format:-
+				 * ===============
+				 * 
+				 * 
+				 * 
+				 * ================ 
+				 * Example Output:-
+				 * ================
+				 * 
+				 * 
 				 */
 
 				System.out.println("******");
@@ -136,13 +273,24 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 8: {
-				/*
-				 * Print the following Pattern in Output :
-				 *****
-				 *
-				 *
-				 *
-				 *****
+				/*Problem Description
+				/* =====================
+				 * Problem Description:-
+				 * =====================
+				 * 
+				 * 
+				 * 
+				 * ===============
+				 * Output Format:-
+				 * ===============
+				 * 
+				 * 
+				 * 
+				 * ================ 
+				 * Example Output:-
+				 * ================
+				 * 
+				 * 
 				 */
 
 				System.out.println("*****");
@@ -154,15 +302,23 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 9: {
-				/*
-				 * Print the following Pattern in Output :
-				 ******
-				 *
-				 *
-				 ******
-				 *
-				 *
-				 ******
+				/* =====================
+				 * Problem Description:-
+				 * =====================
+				 * 
+				 * 
+				 * 
+				 * ===============
+				 * Output Format:-
+				 * ===============
+				 * 
+				 * 
+				 * 
+				 * ================ 
+				 * Example Output:-
+				 * ================
+				 * 
+				 * 
 				 */
 
 				System.out.println("******");
@@ -175,9 +331,23 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 			}
 				break;
 			case 10: {
-				/*
-				 * Print following message in text. "Dear Compiler" "----Never Give me bugs"
-				 * "----If bugs are there, please help me to fix It" "----Thank You"
+				/* =====================
+				 * Problem Description:-
+				 * =====================
+				 * 
+				 * 
+				 * 
+				 * ===============
+				 * Output Format:-
+				 * ===============
+				 * 
+				 * 
+				 * 
+				 * ================ 
+				 * Example Output:-
+				 * ================
+				 * 
+				 * 
 				 */
 				System.out.println("Dear Compiler");
 				System.out.println("----Never Give me bugs");
