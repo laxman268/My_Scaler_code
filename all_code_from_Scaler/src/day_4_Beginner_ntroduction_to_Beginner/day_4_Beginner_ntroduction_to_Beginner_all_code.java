@@ -14,7 +14,8 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 			System.out.println("");
 			System.out.println("Which code would you like to execute?\n\n");
 			System.out.println("1. Print the first five letters of the English alphabet i.e. A, B, C, D and E.");
-			System.out.println("2. Perform the following operations on 6 and 3 and print their respective outputs in different lines.");
+			System.out.println(
+					"2. Perform the following operations on 6 and 3 and print their respective outputs in different lines.");
 			System.out.println("3. Print the following pattern in output 1");
 			System.out.println("4. Print the following pattern in output 2");
 			System.out.println("5. Print \"Hello World !\" in the output.");
@@ -29,30 +30,18 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 			switch (code_number) {
 			case 1: {
 
-				/* =====================
-				 * Problem Description:-
-				 * =====================
+				/*
+				 * ===================== Problem Description:- =====================
 				 * 
 				 * Print the first five letters of the English alphabet i.e. A, B, C, D and E.
 				 * 
-				 * ===============
-				 * OutPut Format:-
-				 * ===============
+				 * =============== OutPut Format:- ===============
 				 * 
 				 * Print the characters in separate lines.
 				 * 
-				 * ================
-				 * Example Output:-
-				 * ================
+				 * ================ Example Output:- ================
 				 * 
-				 *  A
-				 *	B 
-				 *	C
-				 *	D
-				 *	E
-				 * 
-				 * 
-				 *
+				 * A B C D E
 				 */
 
 				System.out.println("A");
@@ -66,39 +55,26 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 
 			case 2: {
 
-				/* =====================
-				 * Problem Description:-
-				 * =====================
+				/*
+				 * ===================== Problem Description:- =====================
 				 * 
 				 * Perform the following operations on 6 and 3 and print their respective
 				 * outputs in different lines. 1. Addition 2. Subtraction 3. Multiplication 4.
 				 * Division
 				 * 
-				 * ===============
-				 * Output Format:-
-				 * ===============
+				 * =============== Output Format:- ===============
 				 * 
 				 * Print the output of 6+3, 6-3, 6*3, 6/3 in separate lines.
 				 * 
-				 * ================
-				 * Example Output:-
-				 * ================
+				 * ================ Example Output:- ================
 				 * 
-				 * 	9
-				 *	3
-				 *	18
-				 *	2
-				 *	
-				 *	=====================
-				 *	Example Explanation:-
-				 *  =====================
-				 *  
-				 *	6 + 3 = 9
-				 *	6 - 3 = 3
-				 *	6 * 3 = 18
-				 *	6 / 3 = 2
+				 * 9 3 18 2
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 6 + 3 = 9 6 - 3 = 3 6 * 3 = 18 6 / 3 = 2
 				 */
-				
+
 				System.out.println("when we add 6 and 3 we will get = " + (6 + 3));
 				System.out.println("when we sub 6 and 3 we will get = " + (6 - 3));
 				System.out.println("when we mult 6 and 3 we will get = " + (6 * 3));
@@ -107,36 +83,20 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 3: {
-				/* =====================
-				 * Problem Description:-
-				 * =====================
+				/*
+				 * ===================== Problem Description:- =====================
 				 * 
-				 * Print the following pattern in output *****
-				 * **** 
-				 * *** 
-				 * ** 
-				 * *
+				 * Print the following pattern in output ***** **** *** ** *
 				 *
-				 * ===============
-				 * Output Format:-
-				 * ===============
+				 * =============== Output Format:- ===============
 				 * 
 				 * Print the following pattern in 5 lines with 5, 4, 3, 2, 1 stars in each line
 				 *
-				 * *****  
-				 * ****  
-				 * ***  
-				 * **  
-				 * *
+				 * ***** **** *** ** *
 				 *
-				 * ================
-				 * Example Output:-
-				 * ================
+				 * ================ Example Output:- ================
 				 * 
-				 * *****  
-				 * ***  
-				 * **  
-				 * *  
+				 * ***** *** ** *
 				 *
 				 *
 				 */
@@ -150,34 +110,23 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 4: {
-				/* ====================
-				 * Problem Description
-				 * ====================
+				/*
+				 * ==================== Problem Description ====================
 				 * 
 				 * Print the following pattern in output
 				 * 
-				 * =============
-				 * Output Format
-				 * =============
+				 * ============= Output Format =============
 				 * 
-				 * Print the following pattern in 5 lines with 4 spaces and 1 star, 3 spaces and 2 stars, 2 spaces and 3 stars, 1 spaces and 4 stars, 0 spaces and 5 stars in respectively lines
+				 * Print the following pattern in 5 lines with 4 spaces and 1 star, 3 spaces and
+				 * 2 stars, 2 spaces and 3 stars, 1 spaces and 4 stars, 0 spaces and 5 stars in
+				 * respectively lines
 				 * 
 				 * 
-				 *		 *
-				 *	    **
-				 *     ***
-				 *    ****
-				 *   *****
-				 *   
-				 * ============== 
-				 * Example Output
-				 * ==============
+				 * * ** *** **** *****
+				 * 
+				 * ============== Example Output ==============
 				 *
-				 *      *
-			     *	   **
-			     *	  ***
-			     *	 ****
-			     *	*****
+				 * * ** *** **** *****
 				 *
 				 */
 				System.out.println("    *");
@@ -189,25 +138,18 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 5: {
-				
+
 				/*
-				 * =====================
-				 * Problem Description:-
-				 * =====================
+				 * ===================== Problem Description:- =====================
 				 * 
-				 * Print "Hello World !" in the output. 
+				 * Print "Hello World !" in the output.
 				 * 
-				 * ===============
-				 * Output Format:-
-				 * ===============
+				 * =============== Output Format:- ===============
 				 * 
 				 * Print in a single line "Hello World !"
 				 * 
-				 * ================ 
-				 * Example Output:-
-				 * ================
-				 * Hello World !
-				 *	
+				 * ================ Example Output:- ================ Hello World !
+				 * 
 				 * Note - You don't have to print "" in the output
 				 * 
 				 */
@@ -217,23 +159,33 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 6: {
-				/* =====================
-				 * Problem Description:-
-				 * =====================
+				/*
+				 * ===================== Problem Description:- =====================
 				 * 
+				 * Print the following Pattern in Output : ****** * * * ******
 				 * 
+				 * ===================== Problem Constraints:- =====================
 				 * 
-				 * ===============
-				 * Output Format:-
-				 * ===============
+				 * No Contstraint's
 				 * 
+				 * ============== Input Format:- ==============
 				 * 
+				 * No need to take input.
 				 * 
-				 * ================ 
-				 * Example Output:-
-				 * ================
+				 * =============== Output Format:- ===============
 				 * 
+				 * Print the following pattern in 5 lines with 6 stars in first and last line,
+				 * and 1 star in 2nd, 3rd, and 4th line.
 				 * 
+				 * ****** * * * ******
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * No input required.
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * ****** * * * ******
 				 */
 				System.out.println("******");
 				System.out.println("*");
@@ -245,23 +197,36 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 7: {
-				/* =====================
-				 * Problem Description:-
-				 * =====================
+				/*
+				 * ===================== Problem Description:- =====================
 				 * 
+				 * Print the following Pattern in Output : ****** * * * * * * ******
 				 * 
+				 * ===================== Problem Constraints:- =====================
 				 * 
-				 * ===============
-				 * Output Format:-
-				 * ===============
+				 * No constraints.
 				 * 
+				 * ============== Input Format:- ==============
 				 * 
+				 * No need to take input.
 				 * 
-				 * ================ 
-				 * Example Output:-
-				 * ================
+				 * =============== Output Format:- ===============
 				 * 
+				 * Print the following pattern in 5 lines with 6 stars in first and last line,
+				 * and 1 star 4 spaces and 1 star in 2nd, 3rd, and 4th line. ****** * * * * * *
+				 * ******
 				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * No input required.
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * ****** * * * * * * ******
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * Self Explanatory.
 				 */
 
 				System.out.println("******");
@@ -273,24 +238,36 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 8: {
-				/*Problem Description
-				/* =====================
-				 * Problem Description:-
-				 * =====================
+				/*
+				 * ===================== Problem Description:- =====================
 				 * 
+				 * Print the following Pattern in Output : ***** * * * *****
 				 * 
+				 * ===================== Problem Constraints:- =====================
 				 * 
-				 * ===============
-				 * Output Format:-
-				 * ===============
+				 * No constraints.
 				 * 
+				 * ============== Input Format:- ==============
 				 * 
+				 * No need to take input.
 				 * 
-				 * ================ 
-				 * Example Output:-
-				 * ================
+				 * =============== Output Format:- ===============
 				 * 
+				 * Print the following pattern in 5 lines with 5 stars in first and last line. 3
+				 * spaces and 1 star in 2nd line, 2 spaces and 1 star in 3rd line, 1 space and 1
+				 * star in 4th line. ***** * * * *****
 				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * No input required.
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * ***** * * * *****
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * Self explanatory.
 				 */
 
 				System.out.println("*****");
@@ -302,23 +279,36 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 				break;
 
 			case 9: {
-				/* =====================
-				 * Problem Description:-
-				 * =====================
+				/*
+				 * ===================== Problem Description:- =====================
 				 * 
+				 * Print the following Pattern in Output : ****** * * ****** * * ******
 				 * 
+				 * ===================== Problem Constraints:- =====================
 				 * 
-				 * ===============
-				 * Output Format:-
-				 * ===============
+				 * No constraints.
 				 * 
+				 * ============== Input Format:- ==============
 				 * 
+				 * No need to take input.
 				 * 
-				 * ================ 
-				 * Example Output:-
-				 * ================
+				 * =============== Output Format:- ===============
 				 * 
+				 * Print the following pattern in 7 lines with 6 stars in first, fourth and last
+				 * line, and 1 star in 2nd and 3rd line, 5 spaces and 1 star in 5th and 6th
+				 * line. ****** * * ****** * * ******
 				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * Input not required.
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * ****** * * ****** * * ******
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * Self explanatory.
 				 */
 
 				System.out.println("******");
@@ -331,24 +321,45 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 			}
 				break;
 			case 10: {
-				/* =====================
-				 * Problem Description:-
-				 * =====================
+				/*
+				 * ===================== Problem Description:- =====================
 				 * 
+				 * Print following message in text. "Dear Compiler" "----Never Give me bugs"
+				 * "----If bugs are there, please help me to fix It" "----Thank You"
 				 * 
+				 * ===================== Problem Constraints:- =====================
 				 * 
-				 * ===============
-				 * Output Format:-
-				 * ===============
+				 * No constraints
 				 * 
+				 * ============== Input Format:- ==============
 				 * 
+				 * No need to take input.
 				 * 
-				 * ================ 
-				 * Example Output:-
-				 * ================
+				 * =============== Output Format:- ===============
 				 * 
+				 * In first line, Print : "Dear Compiler" In second line, Print :
+				 * "----Never Give me bugs" In third line, Print :
+				 * "----If bugs are there, please help me to fix It" In fourth line, Print :
+				 * "----Thank You"
 				 * 
+				 * Note : 4 '-' are there in starting of 2nd, 3rd and 4th line.
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * No input required.
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * Dear Compiler ----Never Give me bugs ----If bugs are there, please help me to
+				 * fix It ----Thank You
+				 * 
+				 * Note : You don't have to print "" in the output
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * Self explanatory.
 				 */
+
 				System.out.println("Dear Compiler");
 				System.out.println("----Never Give me bugs");
 				System.out.println("----If bugs are there, please help me to fix It");
@@ -364,8 +375,8 @@ public class day_4_Beginner_ntroduction_to_Beginner_all_code {
 			System.out.println("\n\nWould you like to try again?..... 1/0");
 
 			once_again = sc.nextInt();
-			
-		}while (once_again == 1);
+
+		} while (once_again == 1);
 		if (once_again == 1) {
 		} else if (once_again == 0) {
 			System.out.println("Thanks for using my test question......\n");

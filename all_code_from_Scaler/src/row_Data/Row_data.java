@@ -7,21 +7,32 @@ public class Row_data {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		/* =====================
-		 * Problem Description:-
-		 * =====================
+		/*
+		 * ===================== Problem Description:- =====================
 		 * 
 		 * 
 		 * 
-		 * ===============
-		 * Output Format:-
-		 * ===============
+		 * ===================== Problem Constraints:- =====================
 		 * 
 		 * 
 		 * 
-		 * ================ 
-		 * Example Output:-
-		 * ================
+		 * ============== Input Format:- ==============
+		 * 
+		 * 
+		 * 
+		 * =============== Output Format:- ===============
+		 * 
+		 * 
+		 * 
+		 * =============== Example Input:- ===============
+		 * 
+		 * 
+		 * 
+		 * ================ Example Output:- ================
+		 * 
+		 * 
+		 * 
+		 * ===================== Example Explanation:- =====================
 		 * 
 		 * 
 		 */
