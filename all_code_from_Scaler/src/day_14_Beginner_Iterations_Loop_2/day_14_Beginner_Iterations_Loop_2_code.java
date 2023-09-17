@@ -71,6 +71,37 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			int code_number = scanner.nextInt();
 			switch (code_number) {
 			case 1: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * Write a program to print all Natural numbers from 1 to N where you have to take N as input from user
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 1 <= N <= 1000000
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * A single line representing N
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * N space separated integers from 1 to N.
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 5
+				 * 
+				 * 10
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 1 2 3 4 5 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 1 2 3 4 5 6 7 8 9 10 
+				 */
 				System.out.println("Please enter the number.");
 
 				int n = scanner.nextInt();
@@ -81,6 +112,39 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 2: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * Write a program to print all odd numbers from 1 to N where you have to take N as input from user. Here N is inclusive.
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 1 <= N <= 2000000
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * A single line representing N
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * All odd numbers from 1 to N separated by spaces.
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 5
+				 * 
+				 * 10
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 1 3 5 
+				 * 
+				 * 1 3 5 7 9 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number.");
 				int number = scanner.nextInt();
 				for (int i = 1; i <= number; i++) {
@@ -92,6 +156,43 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 3: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * Given two numbers A & B, print all the numbers from A to B in a single line.
+				 * 
+				 * Note : Try to solve this question using a while loop for learning purposes.
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 0 <= A <= 500
+				 * 0 <= B <= 500
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * First line denotes the value of A
+				 * Second line denotes the value of B
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * Print the number from A to B
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 5
+				 * 9
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 5 6 7 8 9
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * A = 5
+				 * B = 9
+				 * 
+				 * Numbers from 5 to 9 are : 5 6 7 8 9
+				 */
 				System.out.println("Please enter the number from where you want to start");
 				int number1 = scanner.nextInt();
 				System.out.println("Please enter the number from where you want to End");
@@ -102,6 +203,57 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 4: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * You take a number of test cases, denoted by T as input.For each test case, you should take integers N as input. Your task is to calculate and print the sum of the digits of the given number N.
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 1 <= T <= 1000
+				 * 0 <= N <= 100000000
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * The first line is T which means the total number of test cases.
+				 * Each of the next T lines contain an integer N.
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * T lines each containing one integer representing the sum of the digits of the input integer.
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * Input 1:
+				 * 2
+				 * 5
+				 * 1001
+				 * 
+				 * Input 2:
+				 * 2
+				 * 123
+				 * 1589
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * Output 1:
+				 * 5
+				 * 2
+				 * 
+				 * Output 2:
+				 * 6
+				 * 23
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * Explanation 1:
+				 * 5 has only 1 digit hence sum is 5.
+				 * For the number 1001, the digits are 1,0,0,1. The Sum(1001) = 1+0+0+1 = 2.
+				 * 
+				 * Explanation 2:
+				 * For the number 123, the digits are 1,2,3. The Sum(123) = 1+2+3 = 6.
+				 * For the number 1589, the digits are 1,5,8,9. The Sum(1589) = 1+5+8+9 = 23.
+				 */
 				System.out.println("Please enter the number of test cases you want to do.");
 				int Number = scanner.nextInt();
 				int sum = 0;
@@ -121,6 +273,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 5: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number.");
 				int number = scanner.nextInt();
 				int reverse_number = 0;
@@ -154,6 +335,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 6: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number of test cases you want to do.");
 				int number_of_input = scanner.nextInt();
 				int input_integer;
@@ -167,6 +377,56 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 7: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * Take T (number of test cases) as input.
+				 * For each test case, take integer N as input and Print the sum of digits of that number.
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 1 <= T <= 100
+				 * 0 <= N <= 100000000
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * The first line is the number T which denotes the total number of test cases.
+				 * Next T lines contain an integer N for which you have to print the sum of digits.
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * For T different Numbers, Print the sum of digits in separate lines.
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * Input 1:
+				 * 2
+				 * 81
+				 * 145
+				 * 
+				 * Input 2:
+				 * 2
+				 * 201
+				 * 1000
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * Output 1:
+				 * 9
+				 * 10
+				 * 
+				 * Output 2:
+				 * 3
+				 * 1
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * Explanation 1:
+				 * Sum of digits in 81 and 145 is 9 and 10 respectively.
+				 * 
+				 * Explanation 2:
+				 * Sum of digits in 201 and 1000 is 3 and 1 respectively.
+				 */	
 				System.out.println("Please enter the number of test cases you want to do.");
 				int total_number_of_input = scanner.nextInt();
 				int number = 0;
@@ -184,6 +444,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 8: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number of test cases you want to do.");
 				int total_number_of_input = scanner.nextInt();
 				int number = 0;
@@ -207,6 +496,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 9: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number.");
 				int number = scanner.nextInt();
 				int temp = number;
@@ -224,6 +542,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 10: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number.");
 				int number = scanner.nextInt();
 				int sum = 0;
@@ -235,6 +582,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 11: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number.");
 				int number = scanner.nextInt();
 				System.out.println("Please enter the power.");
@@ -248,6 +624,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 12: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number for which you want to see the table.");
 				int table = scanner.nextInt();
 				for (int i = 1; i <= 10; i++) {
@@ -256,6 +661,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 13: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number.");
 				int number = scanner.nextInt();
 				int sum = 0;
@@ -268,6 +702,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 14: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number.");
 				int number = scanner.nextInt();
 				int sum = 0;
@@ -280,6 +743,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 			}
 				break;
 			case 15: {
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number.");
 				int number = scanner.nextInt();
 				int number1;
@@ -299,7 +791,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 				System.out.println("Sum of Even Digit : " + even);
 			}
 				break;
-			case 16: {
+			case 16: {		/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number of test cases you want to do.");
 				int input_total_number = scanner.nextInt();
 				int last_number = 0;
@@ -325,7 +845,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 				}
 			}
 				break;
-			case 17: {
+			case 17: {		/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter your current balane.");
 				long current_amount = scanner.nextLong();
 				System.out.println("Please enter the number of test cases you want to do.");
@@ -350,7 +898,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 				}
 			}
 				break;
-			case 18: {
+			case 18: {		/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number");
 				int input_number = scanner.nextInt();
 		        int i=1;
@@ -360,7 +936,35 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 		        }
 			}
 				break;
-			case 19: {
+			case 19: {		/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number of test cases you want to do.");
 				int total_number_intiger = scanner.nextInt();
 		        int number;
@@ -374,7 +978,36 @@ public class day_14_Beginner_Iterations_Loop_2_code {
 		        }
 			}
 				break;
-			case 20: {
+			case 20: {	
+				/*
+				 * ===================== Problem Description:- =====================
+				 * 
+				 * 
+				 * 
+				 * ===================== Problem Constraints:- =====================
+				 * 
+				 * 
+				 * 
+				 * ============== Input Format:- ==============
+				 * 
+				 * 
+				 * 
+				 * =============== Output Format:- ===============
+				 * 
+				 * 
+				 * 
+				 * =============== Example Input:- ===============
+				 * 
+				 * 
+				 * 
+				 * ================ Example Output:- ================
+				 * 
+				 * 
+				 * 
+				 * ===================== Example Explanation:- =====================
+				 * 
+				 * 
+				 */
 				System.out.println("Please enter the number of test cases you want to do.");
 				 int total_number_of_input= scanner.nextInt();
 			        int counter=0;
